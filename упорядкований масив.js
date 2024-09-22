@@ -1,6 +1,6 @@
 const arr = [40, 21, 55, 123, 4, 1, 8, 69];
 
-function ordering(arr) {
+function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         let minIndex = i;
 
@@ -14,5 +14,5 @@ function ordering(arr) {
          arr[i] = temp;
     }
 }
-ordering(arr);
+selectionSort(arr);
 console.log(arr);    
